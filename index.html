@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="content">Caesar Chipher</h1>
+    <div id="container" class="grid md:grid-cols-5 gap-4 justify-items-center content">
+        <div id="userInput" class="col-span-2">
+            <label for="userMsg">Enter Your Message:</label><br/>
+            <textarea id="userMsg" name="userMsg" rows="5" cols="50"></textarea>
+        </div>
+        <div id="option" >
+            <label for="encode">Encode:</label>
+            <input type="radio" id="encode" name="encode"  >
+            <label for="decode">Decode:</label>
+            <input type="radio" id="decode" name="decode">
+            <br/><br/>
+            
+            <label for="shift">Shift by:</label>
+            <input type="number" id="shift" name="shift" value="0" onchange="runCipher()"><br/><br/>
+            <button id="clear" onclick="clearFields()">Clear</button>
+        </div>
+        <div id="outputBox" class="col-span-2">
+            <label for="output" id="outputLabel">Output:</label><br/>
+            <textarea id="output" name="output" rows="5" cols="50"></textarea>
+        </div>
+        
+    </div>
+    <img src="cipher.png" alt="Caesar Cipher wheel showing the alphabet arranged in a circle">
+    <script src="index.js"></script>
+</body>
+</html>
