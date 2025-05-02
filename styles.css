@@ -1,0 +1,172 @@
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 20px;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        opacity: 0.8;
+    }
+    textarea{
+        text-indent: 3px;
+        
+    }
+    #option{
+        margin-left: auto;
+    }
+    #userMsg{
+        border: 2px solid gray;
+        border-radius: 5px;
+        height: 100px;
+    }
+    #output{
+        border: 2px solid gray;
+        border-radius: 5px;
+        height: 100px;
+    }
+    #shift{
+        border: 2px solid gray;
+        border-radius: 5px;
+        width: 40px;
+    }
+    #runCode{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    #runCode:hover{
+        background-color: rgb(215, 212, 212);
+    }
+    #clear{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    #clear:hover{
+        background-color: rgb(215, 212, 212);
+    }
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    h1{
+        font-size: 35px;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        margin-top: 15px;
+        text-align: center;
+    }
+    img{
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        opacity: 0.8;
+    }
+    textarea{
+        text-indent: 5px;
+        width: 250px;
+    }
+    #container{
+        margin-top: 20px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
+    #userMsg{
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    #output{
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    #shift{
+        border: 2px solid gray;
+        border-radius: 5px;
+        width: 50px;
+    }
+    #runCode{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    #runCode:hover{
+        background-color: rgb(215, 212, 212);
+    }
+    #clear{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    #clear:hover{
+        background-color: rgb(215, 212, 212);
+    }
+}
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size: 35px;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        margin-top: 15px;
+        text-align: center;
+    }
+    img{
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        opacity: 0.8;
+    }
+    textarea{
+        text-indent: 5px;
+    }
+    #container{
+        margin-top: 20px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
+    #userMsg{
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    #output{
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    #shift{
+        border: 2px solid gray;
+        border-radius: 5px;
+        width: 50px;
+    }
+    #runCode{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    #runCode:hover{
+        background-color: rgb(215, 212, 212);
+    }
+    #clear{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    #clear:hover{
+        background-color: rgb(215, 212, 212);
+    }
+}
