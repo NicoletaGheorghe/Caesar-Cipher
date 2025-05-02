@@ -1,0 +1,27 @@
+{
+  "name": "caesar-cipher",
+  "version": "1.0.0",
+  "description": "A Caesar Cipher encryption tool built with JavaScript  and tested using Test Driven Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoletaGheorghe/Caesar-Cipher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoletaGheorghe/Caesar-Cipher/issues"
+  },
+  "homepage": "https://github.com/NicoletaGheorghe/Caesar-Cipher#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
